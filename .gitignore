@@ -1,0 +1,21 @@
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore local settings file
+settings_local.py
+
+# IDE specific
+.vscode/
+.idea/
+
+# Python bytecode
+*.pyc
